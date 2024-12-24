@@ -42,9 +42,9 @@ function App() {
   }, [length, numberAllowed, charactersAllowed, passwordGenerator]);
 
   return (
-    <>
-      <div className="bg-red-200 w-full h-full">
-        <div className="w-full h-full  max-w-md mx-auto shadow-md rounded-lg px-r my-9 text-orange-500 bg-slate-500">
+    
+      <div className="bg-slate-300 w-full h-screen flex justify-center items-center">
+        <div className="w-full  max-w-md mx-auto shadow-md rounded-lg px-r my-9 text-orange-500 bg-slate-500">
           <div className="text-white text-center">Password Generator</div>
 
           <div className="flex shadow rounded-lg overflow-hidden mb-4 p-4">
@@ -106,7 +106,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+
   );
 }
 
